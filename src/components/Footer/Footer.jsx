@@ -16,27 +16,21 @@ const Footer = () => (
 
     <div className={styles.rights}>
       Developed by{" "}
-      <a href="https://youtube.com/Tomkovich" target="_blank" rel="noreferrer">
-        Tomkovich
+      <a href="https://www.linkedin.com/in/filip-kavaleu-b586b21b4/" target="_blank" rel="noreferrer">
+      Filip Kavaleu
       </a>
     </div>
 
     <div className={styles.socials}>
-      <a href="https://instagram.com" target="_blank" rel="noreferrer">
+      <a href="https://www.instagram.com/filip_kavaleu/" target="_blank" rel="noreferrer">
         <svg className="icon">
           <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#instagram`} />
         </svg>
       </a>
 
-      <a href="https://facebook.com" target="_blank" rel="noreferrer">
+      <a href="https://www.facebook.com/filipp.kovalev.9/" target="_blank" rel="noreferrer">
         <svg className="icon">
           <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#facebook`} />
-        </svg>
-      </a>
-
-      <a href="https://youtube.com" target="_blank" rel="noreferrer">
-        <svg className="icon">
-          <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#youtube`} />
         </svg>
       </a>
     </div>
